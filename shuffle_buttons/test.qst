@@ -1,0 +1,29 @@
+/* The file encoding is Windows-1251 */
+
+:main
+pln Нажмите одну из кнопок.
+btn 1, 1
+btn 2, 2
+btn 3, 3
+btn 4, 4
+btn 5, 5
+end
+
+:1
+goto message
+
+:2
+goto message
+
+:3
+goto message
+
+:4
+goto message
+
+:5
+goto message
+
+:message
+pln Вы нажали #%previous_loc$.
+goto main
