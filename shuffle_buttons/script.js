@@ -11,7 +11,7 @@ Client.prototype.drawButtons = function() {
 	// Shuffle buttons
 	GlobalPlayer.buttons = shuffle(GlobalPlayer.buttons);
 	// Call original function with execution context
-	drawButtonsOriginal.call(this);
+	return drawButtonsOriginal.call(this);
 };
 
 // Function to shuffle array
