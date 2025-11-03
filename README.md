@@ -1,6 +1,6 @@
 # Shuffle Buttons
 
-*Version from 2025-04-05 for UrqW 1.0.*
+*Version from 2025-11-03 for UrqW 1.1, 1.0.*
 
 A plugin for [UrqW](https://github.com/urqw/UrqW) that shuffles choice buttons.
 
