@@ -1,27 +1,13 @@
-This project is documented and conducted in Russian
-due to its focus on a Russian-speaking audience.
+# Shuffle Buttons
 
-<div lang="ru">
+*Version from 2025-04-05 for UrqW 1.0.*
 
-# Shuffle buttons
+A plugin for [UrqW](https://github.com/urqw/UrqW) that shuffles choice buttons.
 
-*Версия от 05.04.2025 для UrqW 1.0.*
+Each time before rendering a list of choice buttons (`btn`), the plugin shuffles the list and displays the buttons in a random order.
 
-Плагин для [UrqW](https://github.com/urqw/UrqW),
-выполняющий перемешивание кнопок выбора.
+The plugin and an example of its use can be found in the urqw directory. A demo of the plugin can be viewed at <https://urqw.github.io/UrqW#shuffle_buttons>
 
-Каждый раз, перед отрисовыванием списка кнопок выбора (btn),
-плагин выполняет перемешивание этого списка и
-отображает кнопки в случайном порядке.
+For other UrqW plugins, see the [common repository](https://github.com/urqw/plugins).
 
-Вы можете заархивировать папку с плагином и тестовым файлом .qst,
-добавить этот архив в UrqW как любую другую игру
-и на практике ознакомиться с работой плагина.
-
-Другие плагины для UrqW см. в
-[общем репозитории](https://github.com/urqw/plugins).
-
-Однако будьте осторожны: не все плагины UrqW могут быть легко скомбинированы
-посредством копирования их кода в один файл.
-
-</div>
+Be careful, though: not all UrqW plugins can be easily combined.

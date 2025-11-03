@@ -1,7 +1,5 @@
-/* The file encoding is Windows-1251 */
-
 :main
-pln Нажмите одну из кнопок.
+pln Press one of the buttons.
 btn 1, 1
 btn 2, 2
 btn 3, 3
@@ -25,5 +23,5 @@ goto message
 goto message
 
 :message
-pln Вы нажали #%previous_loc$.
+pln You pressed #previous_loc$.
 goto main
