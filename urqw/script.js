@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: GPL-2.0-or-later
  */
 
-// Save link to original function from UrqW (/js/Client.js)
-var drawButtonsOriginal = Client.prototype.drawButtons;
+// Save link to original function
+const drawButtonsOriginal = Client.prototype.drawButtons;
 
-// Rewrite original function for drawing buttons
+// Override original function
 Client.prototype.drawButtons = function() {
 	// Shuffle buttons
 	GlobalPlayer.buttons = shuffle(GlobalPlayer.buttons);
@@ -16,7 +16,7 @@ Client.prototype.drawButtons = function() {
 
 // Function to shuffle array
 function shuffle(arr) {
-	var j, temp;
+	let j, temp;
 	for(var i = arr.length - 1; i > 0; i--) {
 		j = Math.floor(Math.random()*(i + 1));
 		temp = arr[j];

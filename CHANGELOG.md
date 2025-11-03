@@ -1,6 +1,7 @@
 # Changelog
 
 * Translation of documentation and demonstration into English.
+* Refactoring.
 
 ## Version from 2025-04-05
 
