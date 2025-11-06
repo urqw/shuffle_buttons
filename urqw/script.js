@@ -1,4 +1,5 @@
 /**
+ * Shuffle Buttons - plugin for UrqW <https://github.com/urqw/shuffle_buttons>
  * Copyright (C) 2019, 2025 Nikita Tseykovets <tseikovets@rambler.ru>
  * SPDX-License-Identifier: GPL-2.0-or-later
  */
